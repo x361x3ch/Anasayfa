@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+	body {
+		background-color: #272B31;
+	} 
+	
+	h1, h2, h3, h4 {
+		font-family: 'Poppins', Arial;
+		font-weight: 200;
+		color: #262930;
+	}
+
+	p {
+		color: #F0EAEA;
+		font-family: 'Quicksand', sans-serif;
+		margin-right: 5%;
+		margin-left: 5%;
+		} 
+		
+	li {
+		color: #262930;
+		font-family: 'Quicksand', sans-serif;
+		margin-top: 0%;
+		margin-right: 5%;
+		} 
+	
+	a {
+		color: #E8E8E8;
+		text-decoration: none;
+		font-family: 'Poppins', sans-serif;
+		font-weight: 900;
+	} 
+
+	img {
+		max-width: 10px;
+	} 
