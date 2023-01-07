@@ -10,6 +10,7 @@
 		color: #FCFBF6;
 		line-height: 1;
 		border-bottom: none;
+		display: inline-block;
 	}
 
 	p {
