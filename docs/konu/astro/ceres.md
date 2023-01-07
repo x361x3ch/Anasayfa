@@ -1,24 +1,18 @@
-<style>
+<link href="style.css" rel="stylesheet"></link>
 
-	@import url('styles.css');
+<center>
 
-</style>
+<h1>CERES</h1>  
+<h2>(DEMETER)</h2>  
 
-<span class="fash">
-<br/>
-<h1>CERES</h1>
-<h2>(DEMETER)</h2>
-</span>
-<br/>
-<div class="kaynak">
+</center>
 
-<a href="https://twitter.com/i/status/1119912255812927488">2019.04.21 13.34</a>
+<a href="https://twitter.com/i/status/1119912255812927488">2019.04.21 13.34</a>  
 
-<a href="https://twitter.com/sorakastro">SORAKA @sorakastro</a>
+<a href="https://twitter.com/sorakastro">SORAKA @sorakastro</a>  
 
-<a href="https://telegra.ph/a-Twitter-thread-from-sorakastro-08-19">Unroll</a>
+<a href="https://telegra.ph/a-Twitter-thread-from-sorakastro-08-19">Unroll</a>  
 
-</div>
 
 [](https://pbs.twimg.com/media/D4q6QEzWwAEIeNo.jpg)
 
