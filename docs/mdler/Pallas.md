@@ -1,8 +1,4 @@
-<style>
-
-	@import url('style.css');
-
-</style>
+<link href="styles.css" rel="stylesheet">
 
 <span class="fash">
 
