@@ -5,11 +5,12 @@
 	} 
 	
 	h1, h2, h3, h4 {
+		border-bottom: 0;
 		font-family: 'Poppins', Arial;
 		font-weight: 200;
 		color: #FCFBF6;
 		line-height: 1;
-		border-bottom: 0;
+
 	}
 
 	p {
