@@ -2,16 +2,16 @@
 
 <center>
 
-<h1>CERES</h1>  
-<h2>(DEMETER)</h2>  
+CERES  
+(DEMETER)  
 
 </center>
 
-<a href="https://twitter.com/i/status/1119912255812927488">2019.04.21 13.34</a>  
+[2019.04.21 13.34](https://twitter.com/i/status/1119912255812927488)  
 
-<a href="https://twitter.com/sorakastro">SORAKA @sorakastro</a>  
+[SORAKA @sorakastro](https://twitter.com/sorakastro)  
 
-<a href="https://telegra.ph/a-Twitter-thread-from-sorakastro-08-19">Unroll</a>  
+[Unroll](https://telegra.ph/a-Twitter-thread-from-sorakastro-08-19)
 
 
 [](https://pbs.twimg.com/media/D4q6QEzWwAEIeNo.jpg)
