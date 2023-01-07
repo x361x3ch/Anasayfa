@@ -7,12 +7,13 @@ CERES
 
 </center>
 
+<right>
+
 [2019.04.21 13.34](https://twitter.com/i/status/1119912255812927488)  
-
 [SORAKA @sorakastro](https://twitter.com/sorakastro)  
-
 [Unroll](https://telegra.ph/a-Twitter-thread-from-sorakastro-08-19)
 
+</right>
 
 [](https://pbs.twimg.com/media/D4q6QEzWwAEIeNo.jpg)
 
