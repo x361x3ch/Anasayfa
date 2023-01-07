@@ -1,8 +1,6 @@
-  
 
-<link href="styles.css" rel="stylesheet"></link>  
-  
-  
+
+<link href="styles.css" rel="stylesheet">  
 
 <center>
 
@@ -238,11 +236,10 @@ Bazen başkalarını beslemede ve güvence vermekte yetersiz kalabilir. Başkala
 Hayal güçlerini keşfetme özgürlüğü sağlayan, hoşgörülü, şefkatli ve istikrarlı beslenmeye ihtiyaç duyar. Başkalarını nezaket, sempati ile besler, hayal gücünü teşvik eder ve iyileştirir.
 
 
-<span class="fash">
-<br/>
-<h1>CERES EVLERDE</h1>
-<h2>Nasıl besler ve nasıl beslenirsiniz?</h2>
- </span>
+
+
+# CERES EVLERDE
+**Nasıl besler ve nasıl beslenirsiniz?**
 
 ## ⚳ 1\. Evde
 
@@ -256,7 +253,7 @@ Onları iyi yemeklerle besleyin, onlara sarılın ve istedikleri şeyler için y
 
 Onlara destek olun, ağız kalabalığı/boş laf yapmalarına izin verin ve bazen tavsiye verin.
 
- ## ⚳ 4\. Evde
+## ⚳ 4\. Evde
 
 Onlara temiz, güvenli ve misafirperver bir ev verin. Cesaretlenmek ve beslenmek için ailelerine ihtiyaçları var.
 
@@ -268,11 +265,11 @@ Onların hobilerinde kaybolmalarına izin verin, kendilerini ifade etmelerini sa
 
 Onlara plan ve rutin verin, eve geldiklerinde onlar için orada olun.
 
- ## ⚳ 7\. Evde
+## ⚳ 7\. Evde
 
 Bir sevgiliyi beslemek ve onu besleyen bir sevgili istiyor.
 
- ## ⚳ 8\. Evde
+## ⚳ 8\. Evde
 
 Onlara duygusal bilgelik ve samimiyet verin. Travma veya bir kayıp yaşadıklarında onları yalnız bırakmayın.
 
