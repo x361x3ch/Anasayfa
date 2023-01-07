@@ -1,0 +1,21 @@
+p.a {
+	font-size: 18px;
+	color: #F0F0F0;
+  line-height: 110%;
+  font-family: 'Comfortaa', Helvetica, Arial, sans-serif;
+}
+
+p.b {
+	font-size: 24px;
+	color: #F0F0F0;
+  line-height: 100%;
+  font-family: 'Alegreya Sans SC', Helvetica, Arial, sans-serif;
+}
+
+ p.c {
+  text-align: right;
+	font-size: 18px;
+	color: #F0F0F0;
+  line-height: 2%;
+  font-family: 'Comfortaa', Helvetica, Arial, sans-serif;
+}
