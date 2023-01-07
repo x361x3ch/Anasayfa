@@ -9,6 +9,8 @@
 		font-weight: 200;
 		color: #FCFBF6;
 		line-height: 1;
+		text-rendering: optimizeLegibility;
+}
 	}
 
 	p {
