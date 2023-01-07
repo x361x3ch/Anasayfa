@@ -9,8 +9,7 @@
 		font-weight: 200;
 		color: #FCFBF6;
 		line-height: 1;
-		head-rule-width: 0pt;
-		foot-rule-width: 0pt;
+		text-decoration: none;
 	}
 
 	p {
