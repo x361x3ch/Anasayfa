@@ -443,8 +443,8 @@ Kaynak: Astroloji 101 - Kathleen Sears.
 
 <center>
 
-# Haritanızdaki açıları  
-# öğrenmek için
+<p id="fash"> Haritanızdaki açıları <br/>
+öğrenmek için </p>
 
 </center>
 
