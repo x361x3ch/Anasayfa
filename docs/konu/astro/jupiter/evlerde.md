@@ -8,12 +8,11 @@
 
 </center>
 
-
 [](https://twitter.com/i/status/1215222905237393409) 
 
 Kendimizi güçlü, şanslı ve özgür hissettiğimiz, başkalarından yardım gördüğümüz, fırsatlarla karşılaştığımız ve maddi manevi geliştiğimiz alanları gösterir.
 
-![](https://twitter.com/pic/orig/media%2FEN1WyUJXUAAyjCL.jpg)
+![](https://pbs.twimg.com/media/EN1WyUJXUAAyjCL.jpg)
 
 [](https://twitter.com/i/status/1215224414901624832)
 
