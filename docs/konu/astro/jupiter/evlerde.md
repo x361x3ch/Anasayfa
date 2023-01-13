@@ -1,16 +1,12 @@
 <link href="styles.css" rel="stylesheet">
 
-<center>
 
-<p style="background-color:#86AD41;"> <a href="https://twitter.com/i/status/1215222905237393409">2020-01-09 13.44</a> <a href="https://twitter.com/tugceastro">tugceastro</a></p>
+<p align="center" class="baslik">JÜPİTER EVLERDE</p>
 
-<p style="font-size:32px">JÜPİTER EVLERDE</p>
+<p align="right"> <a style="font-weight: 400;" href="https://twitter.com/i/status/1215222905237393409">2020-01-09 13.44</a> <br/> <a style=" font-weight: 400;" href="https://twitter.com/tugceastro">tugceastro</a></p>
+</div>
 
-</center>
-
-[](https://twitter.com/i/status/1215222905237393409) 
-
-Kendimizi güçlü, şanslı ve özgür hissettiğimiz, başkalarından yardım gördüğümüz, fırsatlarla karşılaştığımız ve maddi manevi geliştiğimiz alanları gösterir.
+[](https://twitter.com/i/status/1215222905237393409) Kendimizi güçlü, şanslı ve özgür hissettiğimiz, başkalarından yardım gördüğümüz, fırsatlarla karşılaştığımız ve maddi manevi geliştiğimiz alanları gösterir.
 
 ![](https://pbs.twimg.com/media/EN1WyUJXUAAyjCL.jpg)
 
@@ -84,4 +80,4 @@ Sosyal gruplar, arkadaşlıklar ve hedefleri yoluyla gelişen. Sosyal yaşamda b
 
 <p style="font-size:24px">♃ 12. Evde</p>
 
-Hayat boyu terslik ve düşmanlıktan korunan. Kendini akışa bırakırsa huzura kavuşur. İç dünyasına dönüp yaşamın anlamını arar. Duyarlı ve yardımseverdir. Araştırmacı, doktor, sanatçı olabilir. Spiritüel yetenekleri olan. Zor açılarda aşırı hayalci ve şüphecidir. 
+Hayat boyu terslik ve düşmanlıktan korunan. Kendini akışa bırakırsa huzura kavuşur. İç dünyasına dönüp yaşamın anlamını arar. Duyarlı ve yardımseverdir. Araştırmacı, doktor, sanatçı olabilir. Spiritüel yetenekleri olan. Zor açılarda aşırı hayalci ve şüphecidir.
