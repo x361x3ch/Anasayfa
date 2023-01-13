@@ -36,3 +36,28 @@
 	img {
 		max-width: 99%;
 	}
+	
+	p.baslik {
+		font-size:32px;
+		font-family:Poppins;
+		margin-bottom: 0%;
+		}
+	
+	p.kaynak {
+		background-color: #FE45AA; 
+		line-height: 0;
+		text-align: right;
+		color: #E8E8E8;
+		text-decoration: none;
+		font-family: 'Poppins', sans-serif;
+		font-weight: 200;
+	}
+	
+	span.fash {
+		/*line-height: 0.1;*/
+		text-align: center;
+		font-weight: 200;
+		font-size: 24px;
+		text-transform: capitalize;
+	}
+	
