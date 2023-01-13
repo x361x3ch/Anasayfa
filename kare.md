@@ -1,4 +1,4 @@
-<link href="https://x361x3ch.github.io/stylesheet/styles.css" rel="stylesheet">
+<link href="styles.css" rel="stylesheet">
 
 <center>
 
