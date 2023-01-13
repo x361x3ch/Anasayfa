@@ -4,7 +4,7 @@
 <p align="center" class="baslik">JÜPİTER EVLERDE</p>
 
 <p align="right"> <a style="font-weight: 400;" href="https://twitter.com/i/status/1215222905237393409">2020-01-09 13.44</a> <br/> <a style=" font-weight: 400;" href="https://twitter.com/tugceastro">tugceastro</a></p>
-</div>
+
 
 [](https://twitter.com/i/status/1215222905237393409) Kendimizi güçlü, şanslı ve özgür hissettiğimiz, başkalarından yardım gördüğümüz, fırsatlarla karşılaştığımız ve maddi manevi geliştiğimiz alanları gösterir.
 
