@@ -50,3 +50,13 @@
 	img {
 		max-width: 99%;
 	}
+ 
+	table, th, td {
+		color: #E8E8E8; 
+		background: #272B31;
+		border-radius: 5px;
+		font-family: 'Quicksand', sans-serif;
+		margin-right: 5%;
+		margin-left: 5%;
+		max-width: 90%;
+	}
