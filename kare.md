@@ -452,34 +452,34 @@ Kaynak: Astroloji 101 - Kathleen Sears.
 
 Haritanızda hangi gezegenin hangi gezegenle kare-karşıt-üçgen yaptığını öğrenmek için bu şemayı kullanabilirsiniz
 
-![](https://pbs.twimg.com/media/D5bSd_SWkAE5Dwv.jpg -->
+![](https://pbs.twimg.com/media/D5bSd_SWkAE5Dwv.jpg)
 
 <!-- https://twitter.com/i/status/1123316888472301568 -->
 
 Kendi haritamla örnek veriyorum en baştaki güneş demek mi, 1. Aşağıya doğru giden karelere bakıyoruz bu şekilde
 
-![](https://pbs.twimg.com/media/D5bSwYqW0AArALc.jpg -->
+![](https://pbs.twimg.com/media/D5bSwYqW0AArALc.jpg)
 
 <!-- https://twitter.com/i/status/1123317161580269569 -->
 
 Ve sağa doğru yazılan gezegenlerle eleştiriyoruz, örneğin güneşim ay burcumla üçgen açı yapmış, 
 
-![](https://pbs.twimg.com/media/D5bTALAXkAA_Ydw.jpg -->
+![](https://pbs.twimg.com/media/D5bTALAXkAA_Ydw.jpg)
 
 <!-- https://twitter.com/i/status/1123317479407849472 -->
 
 Güneşim de Satürnle kare yapmış
 
-![](https://pbs.twimg.com/media/D5bTSuCW4AMDkvk.jpg -->
+![](https://pbs.twimg.com/media/D5bTSuCW4AMDkvk.jpg)
 
 <!-- https://twitter.com/i/status/1123317818928377856 -->
 
 Ama öncelikle simgeleri öğrenmek gerekiyor ya da üşeniyorsanız haritanın bu yazılı bölgesi ile tek tek sayarak bakabilirsiniz, güneş ay diye devam ediyor
 
-![](https://pbs.twimg.com/media/D5bTmQbX4AA6vdO.jpg -->
+![](https://pbs.twimg.com/media/D5bTmQbX4AA6vdO.jpg)
 
 <!-- https://twitter.com/i/status/1123318206083497985 -->
 
 H gibi simgesi olan Satürnle güneşin kare yaptığını görüyoruz, bu şekilde diğerlerini de anlayabilirsiniz, hangi gezegenin hangi gezegenle hangi açı yaptığını dkdkd
 
-![](https://pbs.twimg.com/media/D5bT9GiWwAEF8w4.jpg -->
+![](https://pbs.twimg.com/media/D5bT9GiWwAEF8w4.jpg)
