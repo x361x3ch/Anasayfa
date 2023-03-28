@@ -67,10 +67,18 @@ h1, h2, h3, h4, h5 {
   
 }
 
+.right {
+  flex: 30%;
+  /*flex-direction: column;*/
+  display: inline-block;
+  background-color: #f1f1f1;
+  padding: 20px;
+  
+}
 
 /* Main column */
 .main {
-  flex: 70%;
+  flex: 40%;
   background-color: white;
   color: #292929;
   padding: 20px;
@@ -102,7 +110,10 @@ h1, h2, h3, h4, h5 {
   .navbar {
     flex-direction: row;
   }
-  .side {
+  .left {
+	display: inline-block;
+  }
+ .right {
 	display: inline-block;
   }
 }
@@ -116,7 +127,7 @@ h1, h2, h3, h4, h5 {
   .navbar {
     flex-direction: row;
   }
-  .side {
+  .left {
 	display: none;
   }
 }
