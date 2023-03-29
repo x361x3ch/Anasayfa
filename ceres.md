@@ -183,43 +183,43 @@ Kendini beslemekte iyi olabilir. Çok fazla aktivite ile gelişirler. Baskı alt
 
 Fiziksel beslenmeye ihtiyaç duyar. (sevgi, yemek ve konfor) Ceres'teki Boğa, başkalarını onlar için yemek pişirerek, onlara hediyeler alarak ve onlarla fiziksel bir şekilde ilgilenerek besler.
 
-## ⚳  İkizler**  
+## ⚳  İkizler  
 
 İletişim için güvence ve cesaretlendirme, destek ve beslenmeyi öğrenmek için alana ihtiyaç duyar. Başkalarını sözleriyle beslerler. Övgü, güvence, tavsiye, bilgi vb. ile beslenirler.
 
-## ⚳  Yengeç **  
+## ⚳  Yengeç   
 
 Yumuşak, anne şefkatliyle beslenmeye; rahata, dengeye, stabilliğe ve iyi bir yuvaya büyük bir ihtiyacı vardır. Aynı şekilde, beslenmeyi istedikleri şekilde başkalarını beslerler ve korumacılardır.
 
-## ⚳  Aslan **  
+## ⚳  Aslan   
 
 Besleyici olarak saygı ve hayranlık ister. Özgüvenlerini artırmak ve grup etkinliklerine katılmaları çok önemlidir. Başkalarını besleme stillerinin bir parçası olarak insanlara dikkat ve övgü verirler. Başkalarını şımartmaya meyillidirler.
 
-## ⚳  Başak **  
+## ⚳  Başak   
 
 Öğrenmek ve çalışmakla meşgul olduklarında kendilerini beslediklerini hissediyor. Örnek aldıkları insanlardan yapıcı eleştiriler/övgüler istiyorlar. Başkalarını rehberlikleriyle beslerler, ancak aşırı eleştirel olma konusunda dikkatli olmaları gerekir.
 
-## ⚳  Terazi **  
+## ⚳  Terazi   
 
 Yetişkin figürlerinden saygı ve adalet ister. Sevdikleri tarafından hediyeler, takdir edilmek ve umursandığını belli eden küçük sözlerle beslenirler. Ceres'teki Terazi başkalarını önemseme ve öğrenme özgürlüğü ile besler.
 
-## ⚳  Akrep **  
+## ⚳  Akrep   
 
 Biri onların duygusal ya da fiziksel olarak iyileşmesine yardımcı olmak için orada olduğu zaman kendini beslenmiş hisseder. Yakınlık bazen onları besleyebilir. Bir sevgiliyi beslemek ya da bir sevgili tarafından beslenmek istemekle bağlantısı vardır.
 
 Besleyici tarzı koruyucu, iyileştirici, dahil ve kararlı olmaktır.
 
-## ⚳  Yay **  
+## ⚳  Yay   
 
 Öğrenme ve tecrübe ile beslenir. Onların dünyayı keşfetmesine ve deneyimlemesine izin verin. İnsanlara tavsiye vererek ve onlara öğretmenlik yaparak besler.
 
-## ⚳  Oğlak**  
+## ⚳  Oğlak  
 
 Çevresinin ve alınan kararların kontrolünde olması beslenmiş hissettirir.
 
 Ayrıca plana/düzene ihtiyaçları var. Başkalarını istikrar ve yol göstericilikle besler.
 
-## ⚳  Kova**  
+## ⚳  Kova  
 
 Destek, kabul ve hatta arkadaşlık gibi unsurları besleyici bulur.
 
@@ -227,30 +227,30 @@ Terk edilme/görmezden gelinme ya da yetersiz beslenmeyle ilgili bağlantıları
 
 Bazen başkalarını beslemede ve güvence vermekte yetersiz kalabilir. Başkalarını kabul etmek ve iletişim yoluyla beslerler.
 
-## ⚳  Balık**  
+## ⚳  Balık  
 
 Hayal güçlerini keşfetme özgürlüğü sağlayan, hoşgörülü, şefkatli ve istikrarlı beslenmeye ihtiyaç duyar. Başkalarını nezaket, sempati ile besler, hayal gücünü teşvik eder ve iyileştirir.
 
 ## CERES EVLERDE##   
-**Nasıl besler ve nasıl beslenirsiniz?**  
+**Nasıl besler ve nasıl beslenirsiniz?  
 
-## ⚳ 1\. Evde**  
+## ⚳ 1\. Evde  
 
 Sizinle ilgilenmelerine izin vererek onları besleyin. Benlik saygısı, ego ve dışsal benliği beslemek önemlidir.
 
-## ⚳ 2\. Evde**  
+## ⚳ 2\. Evde  
 
 Onları iyi yemeklerle besleyin, onlara sarılın ve istedikleri şeyler için yeterli paraya sahip olduklarından emin olun.
 
-## ⚳  3\. Evde**  
+## ⚳  3\. Evde  
 
 Onlara destek olun, ağız kalabalığı/boş laf yapmalarına izin verin ve bazen tavsiye verin.
 
-## ⚳  4\. Evde**  
+## ⚳  4\. Evde  
 
 Onlara temiz, güvenli ve misafirperver bir ev verin. Cesaretlenmek ve beslenmek için ailelerine ihtiyaçları var.
 
-## ⚳  5\. Evde**  
+## ⚳  5\. Evde  
 
 Onların hobilerinde kaybolmalarına izin verin, kendilerini ifade etmelerini sağlayın. Risk almak gelişimlerinin bir parçasıdır. Onları destekleyecek ve besleyebilecek bir sevgili gerekir.
 
@@ -258,28 +258,28 @@ Onların hobilerinde kaybolmalarına izin verin, kendilerini ifade etmelerini sa
 
 Onlara plan ve rutin verin, eve geldiklerinde onlar için orada olun.
 
-## ⚳  7\. Evde**  
+## ⚳  7\. Evde  
 
 Bir sevgiliyi beslemek ve onu besleyen bir sevgili istiyor.
 
-## ⚳  8\. Evde**  
+## ⚳  8\. Evde  
 
 Onlara duygusal bilgelik ve samimiyet verin. Travma veya bir kayıp yaşadıklarında onları yalnız bırakmayın.
 
-## ⚳  9\. Evde**  
+## ⚳  9\. Evde  
 
 Onlara uzun yolculuklar/sabbatical* sağlayın. Rutinde değişiklikler yapın. Yeni şeyler öğretin. Din veya uğruna yaşayacakları bir kod/amaç verin.
 
 *sabbatical=basitçe işe/okula ara vermek.
 
-## ⚳  10\. Evde**  
+## ⚳  10\. Evde  
 
 Onlara iyi bir akıl hocası, finansal güvenlik ve genel istikrar kazandırın. Başkalarını yönlendirirken/beslerken görülmek isteyebilirler.
 
-## ⚳  11\. Evde**  
+## ⚳  11\. Evde  
 Onlar besleyici ve destekleyici arkadaşlar, bir destek sistemi. Bir grup veya organizasyonun çıkış noktası.
 
-## ⚳  12\. Evde**  
+## ⚳  12\. Evde  
 İhtiyaç duyduklarını bulmalarına ve besleyici yanlarıyla iletişim kurmalarına yardımcı olun.
 
 - Çeviri flood. 
