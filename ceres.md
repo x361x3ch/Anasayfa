@@ -20,23 +20,23 @@ Astrolojik yorumlarda ise Ceres, doğum haritası konumu ile soyut biçimde nele
 
 Ayrıca damak zevkimiz ile de ilişkili olabileceğini düşünüyorum.
 
-Ev konumu itibari ile Ceres, besleyici yönümüzü en çok ''nerede'' iyi ifade edebileceğimizi gösterir.Burç konumu ise bu beslemeyi ''nasıl'' yaptığımızı gösterir.Annelik ile de ilişkilendirilmiştir ve burç konumu nasıl bir anne olacağımızı/annelik içgüdümüzü yansıtabilir.
+Ev konumu itibari ile Ceres, besleyici yönümüzü en çok ''nerede'' iyi ifade edebileceğimizi gösterir. Burç konumu ise bu beslemeyi ''nasıl'' yaptığımızı gösterir. Annelik ile de ilişkilendirilmiştir ve burç konumu nasıl bir anne olacağımızı/annelik içgüdümüzü yansıtabilir.
 
-Ceresi bulmak için [Astro.com](http://astro.com/)'da haritanızı oluşturun, sayfanın aşağısında additional objects kısmını açın.Ceres' ekleyin ve click here to show charts tıklayın.
+Ceresi bulmak için [Astro.com](http://astro.com/)'da haritanızı oluşturun, sayfanın aşağısında additional objects kısmını açın. Ceres' ekleyin ve click here to show charts tıklayın.
 
 Şu şekilde, anlamayanlara anlayanlar anlatsın artık.
 
 ![](https://pbs.twimg.com/media/D4q7QarW0AAzc_d.jpg)![](https://pbs.twimg.com/media/D4q7Q98WAAAdCko.jpg)
 
-## ⚳  1.Evde ya da Koç Burcunda
+## ⚳  1. Evde ya da Koç Burcunda
 
-Hareket, enerji, aksiyon ve fiziksel aktivite ile beslenirsiniz.Başkalarını besleme biçiminiz de sakin ve uysalca değil onları zorlayarak, enerji harcatarak olacaktır.Örneğin morali bozuk bir arkadaşınızı kafası dağılsın diye spora götürmek.
+Hareket, enerji, aksiyon ve fiziksel aktivite ile beslenirsiniz. Başkalarını besleme biçiminiz de sakin ve uysalca değil onları zorlayarak, enerji harcatarak olacaktır. Örneğin morali bozuk bir arkadaşınızı kafası dağılsın diye spora götürmek.
 
 Sporcu besinleri ve enerji veren besinleri sizin için idealdir.
 
-## ⚳  2.Evde ya da Boğa Burcunda
+## ⚳  2. Evde ya da Boğa Burcunda
 
-Dünyevi şeylerin hepsi size zevk verir.Yeme, içme, uyku, masaj, para yeter ki somut şeyler olsun.Siz de başka insanları bunlarla beslersiniz, beslemeniz somuttur örneğin yemek yapmak, hediye almak, resim çizmek...
+Dünyevi şeylerin hepsi size zevk verir. Yeme, içme, uyku, masaj, para yeter ki somut şeyler olsun. Siz de başka insanları bunlarla beslersiniz, beslemeniz somuttur örneğin yemek yapmak, hediye almak, resim çizmek...
 
 Ağız tadınıza uygun her şeyi yiyebilirsiniz, tatlı ağırlıklı.
 
