@@ -28,7 +28,7 @@ Ceresi bulmak için [Astro.com](http://astro.com/)'da haritanızı oluşturun, s
 
 ![](https://pbs.twimg.com/media/D4q7QarW0AAzc_d.jpg)![](https://pbs.twimg.com/media/D4q7Q98WAAAdCko.jpg)
 
-**⚳  1. Evde ya da Koç Burcunda
+## ⚳  1. Evde ya da Koç Burcunda
 
 Hareket,enerji,aksiyon ve fiziksel aktivite ile beslenirsiniz. Başkalarını besleme biçiminiz de sakin ve uysalca değil onları zorlayarak,enerji harcatarak olacaktır. Örneğin morali bozuk bir arkadaşınızı kafası dağılsın diye spora götürmek.
 
@@ -40,7 +40,7 @@ Dünyevi şeylerin hepsi size zevk verir. Yeme,içme,uyku,masaj,para yeter ki so
 
 Ağız tadınıza uygun her şeyi yiyebilirsiniz,tatlı ağırlıklı.
 
-**⚳  3. Evde ya da İkizler Burcunda
+## ⚳  3. Evde ya da İkizler Burcunda
 
 Her çeşit iletişim tarzı sizi besleyecektir. Mesajlaşmak,yazı yazmak,sohbet etmek... İletişim kurmaktan beslenirsiniz.
 
@@ -48,41 +48,41 @@ Kısa yolculuklar,seyahatler yine sizi besleyecektir. Başka insanları da bu y�
 
 Yemeği boşverin beyini doyurmak sizin için şart.
 
-**⚳  4. Evde ya da Yengeç Burcunda
+## ⚳  4. Evde ya da Yengeç Burcunda
 
 Evinizde,yuvanızda,ailenizle birlikteyken,yakın temas halinde ve güvende iken beslenmiş hissedersiniz. Diğer insanları da onlara güven aşılayarak beslersiniz. Harika anne olursunuz. Her türlü ev yemekleri size göre.
 
-**⚳  5. Evde ya da Aslan Burcunda
+## ⚳  5. Evde ya da Aslan Burcunda
 
 Popüler olmak,dikkat çekmek,saygı görmek,odak noktası olmak ve beğenilmek sizi besler. Pahalı ve lüks şeylerden tatmin olursunuz ve beslenmiş hissedersiniz. En popüler ve pahalı yiyecekler sizlik.
 
-**⚳  6. Evde ya da Başak Burcunda
+## ⚳  6. Evde ya da Başak Burcunda
 
 Çalışmak,yardım etmek,düzenlemek ve planlı olmak sizi beslenmiş hissettirir. İnsanları besleme biçiminiz yardımseverce olsa bile her zaman eleştirel birisi olarak tanınırsınız. Sağlıklı olan ve görüntüsü düzgün olan her şey size göre.
 
-**⚳  7. Evde ya da Terazi Burcunda
+## ⚳  7. Evde ya da Terazi Burcunda
 
 Sizi güzellik,estetik,sanat uyum ve adalet besler.Yine ilgi gördüğünüzde,bakım yaptığınızda kendinizi güzel hissettiğinizde tatmin olur ve beslenmiş hissedersiniz. Başka insanları da zariflik,kibarlık ve iyi zevkinizle beslersiniz. Damak tadınıza uyan ve estetik görünen her yiyecek size göre.(bilhassa tatlılar)
 
-**⚳  8. Evde ya da Akrep Burcunda
+## ⚳  8. Evde ya da Akrep Burcunda
 
 Sizi cinsellik yaşamak,derin ve gizli olan konuları öğrenmek/araştırmak ve enerjinizi kullanmak besleyecektir. Siz de insanları bu yollarla beslersiniz.
 
 Acılı/baharatlı besinler sizlik.
 
-**⚳  9. Evde ya da Yay Burcunda
+## ⚳  9. Evde ya da Yay Burcunda
 
 Öğrenmek,okumak,uzak seyahatler yapmak,kendini geliştirmek ve entelektüelliği artıran her türlü faaliyet sizi besleyecektir. Siz deinsanları bu yollarla beslersiniz. Yeni yemekler tatmak,baharatlı yiyecekler,yöresel yiyecekler size göre.
 
-**⚳  10. Evde ya da Oğlak Burcunda
+## ⚳  10. Evde ya da Oğlak Burcunda
 
 Temkinli, güvende olmak,saygı görmek,disiplin ve başarı sizi beslenmiş hissettirir. Başkalarını da böyle besleyebilirsiniz. Damak zevkiniz ya çok klas yiyeceklerden yanadır ya da tamamen yaşamak için yersiniz.
 
-**⚳  11. Evde ya da Kova Burcunda
+## ⚳  11. Evde ya da Kova Burcunda
 
 Arkadaşlarınızla birlikte olmak,bireyselliğinizi ve mesafenizi korumak,özgür ve asi ruh,çılgınlıklar sizi besler. Başkalarını da bunlarla beslersiniz. Özgürlükle beslendiğiniz için birebir ilişki kurmanız zordur,kaçan ve engelleyen taraf olursunuz. Damak zevkiniz fazlasıyla orijinaldir.
 
-**⚳  12. Evde ya da Balık Burcunda
+## ⚳  12. Evde ya da Balık Burcunda
 
 Yaratıcı tüm temalar sizi etkileyecektir. Müzik,resim,edebiyat,denize yakın olmak,mistik ilimler sizi besler. Başkalarını da bu özellikleriniz ile beslersiniz. Damak zevkiniz karışıktır.
 
@@ -102,52 +102,52 @@ CERES (Demeter): Kişinin hem kendi beslendiği alanları hem de başkalarını 
 
 ![](https://pbs.twimg.com/media/EcGHPd6WkAAXU_L.jpg)
 
-**⚳  Koç ya da 1. Evde
+## ⚳  Koç ya da 1. Evde
 İnsanları, cesaretlendirerek ve onlara bireysellik aşılayarak besler. Liderlik etmekten ise kendi beslenir. İyi bir savunucu ve koruyucudur.
 
 Yardım etmekten ve kendisine de yardım edilmesinden zevk duyar.
 
 Özgürce hareket edememesi beslenememesi demektir.
 
-**⚳  Boğa ya da 2. Evde
+## ⚳  Boğa ya da 2. Evde
 İnsanları maddi manevi açıdan destekleyip, özgüven aşılayarak besler. Rahat bir yaşam sürmeleri adına yardımcı olur. Kendisi ise güvende olmaktan ve ihtiyaçlarının karşılanmasından beslenir. Kişinin maddi açıdan kötü durumda olması beslenememesi demektir.
 
-**⚳  İkizler ya da 3. Evde
+## ⚳  İkizler ya da 3. Evde
 İnsanları bilgi aktararak, rehberlik ederek, iletişim kurup sorunlarına yardımcı olarak besler. Kendisi ise konuşmaktan, öğrenmekten, yakın çevresiyle iyi geçinmekten ve onları koruyarak beslenir. Sevdikleriyle sorun yaşaması beslenememesi demektir.
 
-**⚳  Yengeç ya da 4. Evde
+## ⚳  Yengeç ya da 4. Evde
 İnsanları manevi açıdan destekleyerek, ihtiyaçlarını gidererek ve anaç davranışlarla memnun ederek besler. Kendisi ise aidiyet duygusundan, empati kurmaktan, ailesiyle huzurlu olmaktan beslenir. Ailesiyle sorunlar ve anlaşmazlıklar yaşarsa beslenemez.
 
-**⚳  Aslan ya da 5. Evde
+## ⚳  Aslan ya da 5. Evde
 İnsanları yol göstererek, yöneterek, onlara yetenekleri konusunda fikirler verip ilham olarak besler.
 
 Kendisi ise sanatsal faaliyetler yaparak, sahnede olmaktan, aşktan ve çocuklarla olan bağından beslenir. Bunları kaybetmesi ise beslenememesi demektir.
 
-**⚳  Başak ya da 6. Evde
+## ⚳  Başak ya da 6. Evde
 İnsanları hayatlarını kolaylaştırıp, yardımcı olup ve onlara hizmet ederek besler.
 
 Kendisi faydalı olmaktan, hedefleri için çaba vermekten, üretkenlikten ve aktiflikten beslenir. Sağlığının bozulması, işe yaramamak, amaçsız olmak beslenememesi demektir.
 
-**⚳  Terazi ya da 7. Evde
+## ⚳  Terazi ya da 7. Evde
 İnsanları destek olarak, eksik ihtiyaçlarını tamamlayarak, onların yanında olarak besler. Kendisi ise sanattan, mutlu bir aşk ilişkisinden ve çocuğuyla olan bağından beslenir. Yalnız olması ve sevgilisinden/eşinden ayrılması beslenememesi demektir.
 
-**⚳  Akrep ya da 8. Evde
+## ⚳  Akrep ya da 8. Evde
 İnsanları psikolojik açıdan destek vererek, onlara nasıl dönüşüp gelişeceklerini göstererek besler. Kendisi ise gözlem yapmaktan, bilinmeyen konuları öğrenmekten, cinsellikten ve gizemden beslenir. Bu durumlardan uzak kalması beslenememesi demektir.
 
-**⚳  Yay ya da 9. Evde
+## ⚳  Yay ya da 9. Evde
 İnsanları eğiterek, onlara öğretmen edasında ilâhi/felsefi konular öğreterek besler. Kendisi ise okumaktan, gezmekten, özgür hissetmekten ve inançlarından beslenir. Eğitimle ilgili sorunlar, baskılanmak ve bilgi verememek beslenememesi demektir.
 
-**⚳  Oğlak ya da 10. Evde
+## ⚳  Oğlak ya da 10. Evde
 
 İnsanları organize ederek, yöneterek, düzen oluşturmalarına yardımcı olarak, mantıklı çözümler sunarak ve disipline ederek besler. Kendisi ise toplumsal ve mesleki başarıdan beslenir. Başarısızlık ve statüsünün düşmesi beslenememesi demektir.
 
-**⚳  Kova ya da 11. Evde
+## ⚳  Kova ya da 11. Evde
 
 İnsanlara yeni bir bakış açısı kazandırarak, farklı yönlerini ortaya çıkarıp özgün olmalarını aşılayarak, farkındalık kazandırarak besler.
 
 Kendisi yenilikten, sıradışı olmaktan, hedeflerinden, sosyallikten ve özgürlükten beslenir.Bunlar yoksa beslenemez.
 
-**⚳  Balık ya da 12. Evde
+## ⚳  Balık ya da 12. Evde
 İnsanları fedakarlıklarıyla, merhametiyle, maneviyatla, spiritüel konularla besler.
 
 Kendisi ise yalnızlıktan, okült ve spiritüel şeylerden, duygulardan ve sanattan beslenir. Bunlardan uzak kalması beslenememesi demektir.
@@ -173,7 +173,7 @@ Kendisi ise yalnızlıktan, okült ve spiritüel şeylerden, duygulardan ve sana
 
 —Ne şekilde/nasıl beslendiğimizi ve beslediğimizi ise bulunduğu burç belirliyor.
 
-**⚳  Koç **  
+## ⚳  Koç
 
 Kendini beslemekte iyi olabilir. Çok fazla aktivite ile gelişirler. Baskı altında bile öğrenebilir ve büyüyebilirler. İnsanları yüz ya da boğul* tavrıyla besler. Bağımsızlığı ve kararlılığı teşvik ederler.
 
