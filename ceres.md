@@ -1,7 +1,3 @@
-
-
-<link href="styles.css" rel="stylesheet">  
-
 <center>
 
 # CERES  
