@@ -179,7 +179,7 @@ Kendini beslemekte iyi olabilir. Çok fazla aktivite ile gelişirler. Baskı alt
 
 *sink or swim
 
-**⚳  Boğa**  
+## ⚳  Boğa  
 
 Fiziksel beslenmeye ihtiyaç duyar. (sevgi, yemek ve konfor) Ceres'teki Boğa, başkalarını onlar için yemek pişirerek, onlara hediyeler alarak ve onlarla fiziksel bir şekilde ilgilenerek besler.
 
