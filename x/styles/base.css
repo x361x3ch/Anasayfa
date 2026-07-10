@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Caudex:ital,wght@0,400;0,700;1,400;1,700&family=Comfortaa:wght@300..700&family=Dekko&family=Dongle&family=Kavivanar&family=Love+Ya+Like+A+Sister&family=Nerko+One&family=Patrick+Hand&family=Playwrite+DE+Grund:wght@100..400&family=Playwrite+PT:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Rubik+Glitch&family=Sedgwick+Ave&family=Sedgwick+Ave+Display&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&family=Sriracha&family=Teachers:ital,wght@0,400..800;1,400..800&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+html { 
+	background-color: Wheat;
+	font-family: Quicksand;
+	font-weight: 600;
+}
+a { text-decoration: none; color: #974D57; }
+img, video { max-width: 75%; margin: 1vw 12.5%; border-radius: 5px; }
+strong { font-family: Poppins; }
+header, article { margin: 10vw; }
+header { 
+	text-align: center; 
+	text-transform: capitalize;
+	font-family: Urbanist;
+}
+hr { border-top: solid 5px var(--red);}
+article, .tweet-content { 
+	font-family: Quicksand; 
+	color: #120507; 
+	text-align: justify; 
+	text-break: break-all;
+	hyphens: auto;
+	lang: tr;
+}
+footer { 
+	background-color: DarkSlateGray; 
+	color: Wheat;
+	text-align: center;
+	height: auto; 
+	/*width: 100vw;*/
+	margin: 5vh -2vw -1vh -2vw;
+	padding: 3vh /*üst*/ 12vw /*sağ*/ 3vh /*alt*/ 17vw /*sol*/;
+}
+footer i { color: CornSilk; margin: 0 7vw 0 7vw; font-size: 2em; }
+footer button { background-color: transparent; border:none; margin: 0 -5vw; }
+blockquote {
+	background-color: tan;
+    margin: 0;
+    padding: 2.5vw 5vw; 
+    /*border-left: 2vw solid maroon;*/ 
+    border-radius: 10px;
+    /*font-family: Poppins;*/
+    text-align: justify;
+    hyphens: auto; 
+    lang: tr;
+    position: relative; /* Pseudo-elementleri konumlandırmak için */
+}
+
+blockquote::before {
+    content: '❝'; /* Başındaki işaret */
+    font-size: 3em; /* Büyük font boyutu */
+    font-family: Poppins;
+    position: absolute; /* Konumlandırmayı ayarlamak için */
+    left: -0.9em; /* İçte konumlandırmak için ayar */
+    top: -0.5em; /* Üst tarafına hizalamak için */
+}
+
+blockquote::after {
+    content: '❞'; /* Sonundaki işaret */
+    font-size: 3em; /* Büyük font boyutu */
+    font-family: Poppins;
+    position: absolute; /* Konumlandırmayı ayarlamak için */
+    right: -0.9em; /* Dışta konumlandırmak için ayar */
+    bottom: -0.8em; /* Üst tarafına hizalamak için */
+}
+ul {
+  list-style: none; /* Varsayılan madde işaretlerini kaldır */
+  padding-left: 0; /* Sol padding'i sıfırla */
+}
+
+li {
+  position: relative;
+  padding-left: 10px; /* Simge için boşluk bırak */
+}
+
+li::before {
+  content: "•"; /* Özel simge (örneğin, bir nokta) */
+  color: #86AD41; /* Simge rengi */
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer; /* Pointer işareti için */
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: WhiteSmoke;
+    color: #313131;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 0;
+
+    /* Pozisyonlama */
+    position: absolute;
+    z-index: 1;
+    bottom: 125%; /* Üstte görünmesi için */
+    left: 50%;
+    margin-left: -60px;
+
+    /* Animasyon */
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
