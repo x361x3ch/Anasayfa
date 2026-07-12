@@ -6,8 +6,8 @@
 	.tweet-header { 
 		background-color: #570D1A; 
 		color: Wheat; 
-		margin: 0 -1em;
-		padding: 3vh /*üst*/ 1vw /*sağ*/ 3vh /*alt*/ 10vw /*sol*/;
+		margin: 0 -0.5em;
+		padding: 3vh /*üst*/ 1vw /*sağ*/ 5vh /*alt*/ 10vw /*sol*/;
 	}
 	.tweet-header a:link, a:visited, a:hover, a:active { color: #d2bea3; }
 	.avatar { 
