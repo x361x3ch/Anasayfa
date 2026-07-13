@@ -13,6 +13,7 @@ header {
 	text-transform: capitalize;
 	font-family: Urbanist;
 }
+h1, h2, h3, h4 {text-align:left;}
 hr { border-top: solid 5px var(--red);}
 article, .tweet-content { 
 	font-family: Quicksand; 
