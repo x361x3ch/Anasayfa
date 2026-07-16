@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renk Paleti</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #f5f5f5;
+            font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+            padding: 2rem 1.5rem;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            max-width: 700px;
+            width: 100%;
+            background: #ffffff;
+            border-radius: 24px;
+            padding: 2.5rem;
+            box-shadow: 0 8px 40px rgba(0,0,0,0.06);
+        }
+
+        h1 {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: #202327;
+            margin-bottom: 0.2rem;
+        }
+
+        .subtitle {
+            color: #888;
+            font-size: 0.95rem;
+            margin-bottom: 2rem;
+        }
+
+        .color-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+            gap: 1rem;
+        }
+
+        .color-swatch {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            cursor: pointer;
+            transition: transform 0.15s;
+            border-radius: 12px;
+            padding: 0.5rem;
+            background: #fafafa;
+            border: 1px solid #eee;
+        }
+
+        .color-swatch:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+        }
+
+        .color-swatch:active {
+            transform: scale(0.95);
+        }
+
+        .color-box {
+            width: 100%;
+            aspect-ratio: 1 / 1;
+            border-radius: 10px;
+            border: 2px solid #e8e8e8;
+            transition: box-shadow 0.2s;
+        }
+
+        .color-swatch:hover .color-box {
+            box-shadow: 0 4px 12px rgba(0,0,0,0.10);
+        }
+
+        .color-hex {
+            margin-top: 0.5rem;
+            font-size: 0.7rem;
+            font-family: 'Courier New', monospace;
+            font-weight: 600;
+            color: #333;
+            text-align: center;
+            user-select: all;
+        }
+
+        .toast {
+            position: fixed;
+            bottom: 2rem;
+            left: 50%;
+            transform: translateX(-50%) translateY(80px);
+            background: #202327;
+            color: #fff;
+            padding: 0.7rem 2rem;
+            border-radius: 40px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            opacity: 0;
+            transition: all 0.3s ease;
+            pointer-events: none;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.2);
+        }
+
+        .toast.show {
+            opacity: 1;
+            transform: translateX(-50%) translateY(0);
+        }
+
+        @media (max-width: 500px) {
+            .container {
+                padding: 1.5rem;
+            }
+            .color-grid {
+                grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+                gap: 0.7rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>🎨 Renk Paleti</h1>
+        <p class="subtitle">Kutucuğa tıkla, hex kodu panoya kopyalanır.</p>
+
+        <div class="color-grid">
+                    <div class="color-swatch" data-hex="#87bc24">
+                <div class="color-box" style="background:#87bc24;"></div>
+                <span class="color-hex">#87bc24</span>
+            </div>
+                        <div class="color-swatch" data-hex="#fafcf4">
+                <div class="color-box" style="background:#fafcf4;"></div>
+                <span class="color-hex">#fafcf4</span>
+            </div>
+            <div class="color-swatch" data-hex="#262b34">
+                <div class="color-box" style="background:#262b34;"></div>
+                <span class="color-hex">#262b34</span>
+            </div>            
+                        <div class="color-swatch" data-hex="#79be1e">
+                <div class="color-box" style="background:#79be1e;"></div>
+                <span class="color-hex">#79be1e</span>
+            </div>
+            <div class="color-swatch" data-hex="#f4faf4">
+                <div class="color-box" style="background:#f4faf4;"></div>
+                <span class="color-hex">#f4faf4</span>
+            </div>
+            <div class="color-swatch" data-hex="#04c4e5">
+                <div class="color-box" style="background:#04c4e5;"></div>
+                <span class="color-hex">#04c4e5</span>
+            </div>     
+            <div class="color-swatch" data-hex="#3b475a">
+                <div class="color-box" style="background:#3b475a;"></div>
+                <span class="color-hex">#3b475a</span>
+            </div>
+            <div class="color-swatch" data-hex="#4a5566">
+                <div class="color-box" style="background:#4a5566;"></div>
+                <span class="color-hex">#4a5566</span>
+            </div>
+            <div class="color-swatch" data-hex="#d5c8b0">
+                <div class="color-box" style="background:#d5c8b0;"></div>
+                <span class="color-hex">#d5c8b0</span>
+            </div>
+            <div class="color-swatch" data-hex="#ece5d4">
+                <div class="color-box" style="background:#ece5d4;"></div>
+                <span class="color-hex">#ece5d4</span>
+            </div>
+            <div class="color-swatch" data-hex="#1b2e37">
+                <div class="color-box" style="background:#1b2e37;"></div>
+                <span class="color-hex">#1b2e37</span>
+            </div>
+            <div class="color-swatch" data-hex="#2e4759">
+                <div class="color-box" style="background:#2e4759;"></div>
+                <span class="color-hex">#2e4759</span>
+            </div>
+            <div class="color-swatch" data-hex="#78be03">
+                <div class="color-box" style="background:#78be03;"></div>
+                <span class="color-hex">#78be03</span>
+            </div>
+            <div class="color-swatch" data-hex="#fdfdfd">
+                <div class="color-box" style="background:#fdfdfd;"></div>
+                <span class="color-hex">#fdfdfd</span>
+            </div>
+            <div class="color-swatch" data-hex="#2f2f2f">
+                <div class="color-box" style="background:#2f2f2f;"></div>
+                <span class="color-hex">#2f2f2f</span>
+            </div>
+            <div class="color-swatch" data-hex="#bcbcbc">
+                <div class="color-box" style="background:#bcbcbc;"></div>
+                <span class="color-hex">#bcbcbc</span>
+            </div>            
+                        <div class="color-swatch" data-hex="#1e2d3e">
+                <div class="color-box" style="background:#1e2d3e;"></div>
+                <span class="color-hex">#1e2d3e</span>
+            </div>
+            <div class="color-swatch" data-hex="#8fbe0a">
+                <div class="color-box" style="background:#8fbe0a;"></div>
+                <span class="color-hex">#8fbe0a</span>
+            </div>
+    
+            <div class="color-swatch" data-hex="#81BB1A">
+                <div class="color-box" style="background:#81BB1A;"></div>
+                <span class="color-hex">#81BB1A</span>
+            </div>
+
+            <div class="color-swatch" data-hex="#FFBA19">
+                <div class="color-box" style="background:#FFBA19;"></div>
+                <span class="color-hex">#FFBA19</span>
+            </div>
+            
+            <div class="color-swatch" data-hex="#D10214">
+                <div class="color-box" style="background:#D10214;"></div>
+                <span class="color-hex">#D10214</span>
+            </div>
+
+            <div class="color-swatch" data-hex="#00BCD4">
+                <div class="color-box" style="background:#00BCD4;"></div>
+                <span class="color-hex">#00BCD4</span>
+            </div>
+            
+            <div class="color-swatch" data-hex="#FFBE00">
+                <div class="color-box" style="background:#FFBE00;"></div>
+                <span class="color-hex">#FFBE00</span>
+            </div>
+
+            <div class="color-swatch" data-hex="#215264">
+                <div class="color-box" style="background:#215264;"></div>
+                <span class="color-hex">#215264</span>
+            </div>
+
+            <div class="color-swatch" data-hex="#4ac2d5">
+                <div class="color-box" style="background:#4ac2d5;"></div>
+                <span class="color-hex">#4ac2d5</span>
+            </div>
+
+            <div class="color-swatch" data-hex="#21a2b9">
+                <div class="color-box" style="background:#21a2b9;"></div>
+                <span class="color-hex">#21a2b9</span>
+            </div>
+
+            <div class="color-swatch" data-hex="#fcfdfd">
+                <div class="color-box" style="background:#fcfdfd; border-color:#d0d0d0;"></div>
+                <span class="color-hex">#fcfdfd</span>
+            </div>
+
+            <div class="color-swatch" data-hex="#202327">
+                <div class="color-box" style="background:#202327;"></div>
+                <span class="color-hex">#202327</span>
+            </div>
+
+            <div class="color-swatch" data-hex="#d8ddd7">
+                <div class="color-box" style="background:#d8ddd7;"></div>
+                <span class="color-hex">#d8ddd7</span>        
+            </div>
+                        <div class="color-swatch" data-hex="#2ED1E4">
+                <div class="color-box" style="background:#2ED1E4;"></div>
+                <span class="color-hex">#2ED1E4</span>
+            </div>
+                        <div class="color-swatch" data-hex="#92BA4D">
+                <div class="color-box" style="background:#92BA4D;"></div>
+                <span class="color-hex">#92BA4D</span>
+            </div>
+                        <div class="color-swatch" data-hex="#2E3237">
+                <div class="color-box" style="background:#2E3237;"></div>
+                <span class="color-hex">#2E3237</span>
+            </div>
+                        <div class="color-swatch" data-hex="#070501">
+                <div class="color-box" style="background:#070501;"></div>
+                <span class="color-hex">#070501</span>
+            </div>
+                        <div class="color-swatch" data-hex="#3D4147">
+                <div class="color-box" style="background:#3D4147;"></div>
+                <span class="color-hex">#3D4147</span>
+            </div>
+                        <div class="color-swatch" data-hex="#363A3F">
+                <div class="color-box" style="background:#363A3F;"></div>
+                <span class="color-hex">#363A3F</span>
+            </div>
+            <div class="color-swatch" data-hex="#FBCA27">
+                <div class="color-box" style="background:#FBCA27;"></div>
+                <span class="color-hex">#FBCA27</span>
+            </div>            
+             <div class="color-swatch" data-hex="#89191d">
+                <div class="color-box" style="background:#89191d;"></div>
+                <span class="color-hex">#89191d</span>
+            </div>
+            <div class="color-swatch" data-hex="#f9f2d9">
+                <div class="color-box" style="background:#f9f2d9;"></div>
+                <span class="color-hex">#f9f2d9</span>
+            </div>
+            <div class="color-swatch" data-hex="#07090b">
+                <div class="color-box" style="background:#07090b;"></div>
+                <span class="color-hex">#07090b</span>
+            </div>
+            <div class="color-swatch" data-hex="#8a7c76">
+                <div class="color-box" style="background:#8a7c76;"></div>
+                <span class="color-hex">#8a7c76</span>
+            </div>
+            <div class="color-swatch" data-hex="#5e030e">
+                <div class="color-box" style="background:#5e030e;"></div>
+                <span class="color-hex">#5e030e</span>
+            </div>
+            <div class="color-swatch" data-hex="#9e0818">
+                <div class="color-box" style="background:#9e0818;"></div>
+                <span class="color-hex">#9e0818</span>
+            </div>
+            <div class="color-swatch" data-hex="#860712">
+                <div class="color-box" style="background:#860712;"></div>
+                <span class="color-hex">#860712</span>
+            </div>
+            <div class="color-swatch" data-hex="#035158">
+                <div class="color-box" style="background:#035158;"></div>
+                <span class="color-hex">#035158</span>
+            </div>
+            <div class="color-swatch" data-hex="#fafefe">
+                <div class="color-box" style="background:#fafefe;"></div>
+                <span class="color-hex">#fafefe</span>
+            </div>
+            <div class="color-swatch" data-hex="#f1b405">
+                <div class="color-box" style="background:#f1b405;"></div>
+                <span class="color-hex">#f1b405</span>
+            </div>
+            <div class="color-swatch" data-hex="#18150e">
+                <div class="color-box" style="background:#18150e;"></div>
+                <span class="color-hex">#18150e</span>
+            </div>           
+            <div class="color-swatch" data-hex="#343e47">
+                <div class="color-box" style="background:#343e47;"></div>
+                <span class="color-hex">#343e47</span>
+            </div>
+            <div class="color-swatch" data-hex="#054847">
+                <div class="color-box" style="background:#054847;"></div>
+                <span class="color-hex">#054847</span>
+            </div>
+            <div class="color-swatch" data-hex="#f6fcfb">
+                <div class="color-box" style="background:#f6fcfb;"></div>
+                <span class="color-hex">#f6fcfb</span>
+            </div>            
+            <div class="color-swatch" data-hex="#214958">
+                <div class="color-box" style="background:#214958;"></div>
+                <span class="color-hex">#214958</span>
+            </div>            
+            <div class="color-swatch" data-hex="#afcd57">
+                <div class="color-box" style="background:#afcd57;"></div>
+                <span class="color-hex">#afcd57</span>
+            </div>            
+            <div class="color-swatch" data-hex="#feffff">
+                <div class="color-box" style="background:#feffff;"></div>
+                <span class="color-hex">#feffff</span>
+            </div>            
+            <div class="color-swatch" data-hex="#333334">
+                <div class="color-box" style="background:#333334;"></div>
+                <span class="color-hex">#333334</span>
+            </div>            
+             <div class="color-swatch" data-hex="#9bba3b">
+                <div class="color-box" style="background:#9bba3b;"></div>
+                <span class="color-hex">#9bba3b</span>
+            </div>           
+            <div class="color-swatch" data-hex="#fefffc">
+                <div class="color-box" style="background:#fefffc;"></div>
+                <span class="color-hex">#fefffc</span>
+            </div>            
+            <div class="color-swatch" data-hex="#94b94c">
+                <div class="color-box" style="background:#94b94c;"></div>
+                <span class="color-hex">#94b94c</span>
+            </div>            
+            <div class="color-swatch" data-hex="#fbca26">
+                <div class="color-box" style="background:#fbca26;"></div>
+                <span class="color-hex">#fbca26</span>
+            </div>            
+            <div class="color-swatch" data-hex="#cc1954">
+                <div class="color-box" style="background:#cc1954;"></div>
+                <span class="color-hex">#cc1954</span>
+            </div>
+            <div class="color-swatch" data-hex="#fbfbfb">
+                <div class="color-box" style="background:#fbfbfb;"></div>
+                <span class="color-hex">#fbfbfb</span>
+            </div>
+            <div class="color-swatch" data-hex="#303338">
+                <div class="color-box" style="background:#303338;"></div>
+                <span class="color-hex">#303338</span>
+            </div>
+            <div class="color-swatch" data-hex="#ff06ed">
+                <div class="color-box" style="background:#ff06ed;"></div>
+                <span class="color-hex">#ff06ed</span>
+            </div>            
+            <div class="color-swatch" data-hex="#b21ca9">
+                <div class="color-box" style="background:#b21ca9;"></div>
+                <span class="color-hex">#b21ca9</span>
+            </div>
+            <div class="color-swatch" data-hex="#1298c9">
+                <div class="color-box" style="background:#1298c9;"></div>
+                <span class="color-hex">#1298c9</span>
+            </div>
+            <div class="color-swatch" data-hex="#205f59">
+                <div class="color-box" style="background:#205f59;"></div>
+                <span class="color-hex">#205f59</span>
+            </div>
+            <div class="color-swatch" data-hex="#008cff">
+                <div class="color-box" style="background:#008cff;"></div>
+                <span class="color-hex">#008cff</span>
+            </div>
+            <div class="color-swatch" data-hex="#f4f4f4">
+                <div class="color-box" style="background:#f4f4f4;"></div>
+                <span class="color-hex">#f4f4f4</span>
+            </div>
+            <div class="color-swatch" data-hex="#9f9fa0">
+                <div class="color-box" style="background:#9f9fa0;"></div>
+                <span class="color-hex">#9f9fa0</span>
+            </div>
+            <div class="color-swatch" data-hex="#d9d8d9">
+                <div class="color-box" style="background:#d9d8d9;"></div>
+                <span class="color-hex">#d9d8d9</span>
+            </div>
+            <div class="color-swatch" data-hex="#ecedee">
+                <div class="color-box" style="background:#ecedee;"></div>
+                <span class="color-hex">#ecedee</span>
+            </div>
+            <div class="color-swatch" data-hex="#072433">
+                <div class="color-box" style="background:#072433;"></div>
+                <span class="color-hex">#072433</span>
+            </div>            
+            <div class="color-swatch" data-hex="#53aaa2">
+                <div class="color-box" style="background:#53aaa2;"></div>
+                <span class="color-hex">#53aaa2</span>
+            </div>
+            <div class="color-swatch" data-hex="#842834">
+                <div class="color-box" style="background:#842834;"></div>
+                <span class="color-hex">#842834</span>
+            </div>
+            <div class="color-swatch" data-hex="#f8f7f6">
+                <div class="color-box" style="background:#f8f7f6;"></div>
+                <span class="color-hex">#f8f7f6</span>
+            </div>
+            <div class="color-swatch" data-hex="#211d25">
+                <div class="color-box" style="background:#211d25;"></div>
+                <span class="color-hex">#211d25</span>
+            </div>
+            <div class="color-swatch" data-hex="#f2b601">
+                <div class="color-box" style="background:#f2b601;"></div>
+                <span class="color-hex">#f2b601</span>
+            </div>
+            <div class="color-swatch" data-hex="#010002">
+                <div class="color-box" style="background:#010002;"></div>
+                <span class="color-hex">#010002</span>
+            </div>
+            <div class="color-swatch" data-hex="#f7dcb6">
+                <div class="color-box" style="background:#f7dcb6;"></div>
+                <span class="color-hex">#f7dcb6</span>
+            </div>
+            <div class="color-swatch" data-hex="#beb092">
+                <div class="color-box" style="background:#beb092;"></div>
+                <span class="color-hex">#beb092</span>
+            </div>
+            <div class="color-swatch" data-hex="#bed97d">
+                <div class="color-box" style="background:#bed97d;"></div>
+                <span class="color-hex">#bed97d</span>
+            </div>
+            <div class="color-swatch" data-hex="#020407">
+                <div class="color-box" style="background:#020407;"></div>
+                <span class="color-hex">#020407</span>
+            </div>
+            <div class="color-swatch" data-hex="#0e100e">
+                <div class="color-box" style="background:#0e100e;"></div>
+                <span class="color-hex">#0e100e</span>
+            </div>
+            <div class="color-swatch" data-hex="#5b8dbb">
+                <div class="color-box" style="background:#5b8dbb;"></div>
+                <span class="color-hex">#5b8dbb</span>
+            </div>
+            <div class="color-swatch" data-hex="#acd40f">
+                <div class="color-box" style="background:#acd40f;"></div>
+                <span class="color-hex">#acd40f</span>
+            </div>
+             <div class="color-swatch" data-hex="#e4e4e4">
+                <div class="color-box" style="background:#e4e4e4;"></div>
+                <span class="color-hex">#e4e4e4</span>
+            </div>
+            <div class="color-swatch" data-hex="#0b0a09">
+                <div class="color-box" style="background:#0b0a09;"></div>
+                <span class="color-hex">#0b0a09</span>
+            </div>
+            <div class="color-swatch" data-hex="#50361d">
+                <div class="color-box" style="background:#50361d;"></div>
+                <span class="color-hex">#50361d</span>
+            </div>
+            <div class="color-swatch" data-hex="#9d0f51">
+                <div class="color-box" style="background:#9d0f51;"></div>
+                <span class="color-hex">#9d0f51</span>
+            </div>
+            <div class="color-swatch" data-hex="#762216">
+                <div class="color-box" style="background:#762216;"></div>
+                <span class="color-hex">#762216</span>
+            </div>
+            <div class="color-swatch" data-hex="#efecdb">
+                <div class="color-box" style="background:#efecdb;"></div>
+                <span class="color-hex">#efecdb</span>
+            </div>
+            <div class="color-swatch" data-hex="#e4d8aa">
+                <div class="color-box" style="background:#e4d8aa;"></div>
+                <span class="color-hex">#e4d8aa</span>
+            </div>
+            <div class="color-swatch" data-hex="#1fbebe">
+                <div class="color-box" style="background:#1fbebe;"></div>
+                <span class="color-hex">#1fbebe</span>
+            </div>
+            <div class="color-swatch" data-hex="#f5f6f6">
+                <div class="color-box" style="background:#f5f6f6;"></div>
+                <span class="color-hex">#f5f6f6</span>
+            </div>
+            <div class="color-swatch" data-hex="#15181b">
+                <div class="color-box" style="background:#15181b;"></div>
+                <span class="color-hex">#15181b</span>
+            </div>            
+            <div class="color-swatch" data-hex="#153033">
+                <div class="color-box" style="background:#153033;"></div>
+                <span class="color-hex">#153033</span>
+            </div>          
+            <div class="color-swatch" data-hex="#f5f6f6">
+                <div class="color-box" style="background:#f5f6f6;"></div>
+                <span class="color-hex">#f5f6f6</span>
+            </div>            
+            <div class="color-swatch" data-hex="#699e34">
+                <div class="color-box" style="background:#699e34;"></div>
+                <span class="color-hex">#699e34</span>
+            </div>
+            <div class="color-swatch" data-hex="#2e2d2a">
+                <div class="color-box" style="background:#2e2d2a;"></div>
+                <span class="color-hex">#2e2d2a</span>
+            </div>
+            <div class="color-swatch" data-hex="#fbfcf9">
+                <div class="color-box" style="background:#fbfcf9;"></div>
+                <span class="color-hex">#fbfcf9</span>
+            </div>
+            <div class="color-swatch" data-hex="#2e2d2a">
+                <div class="color-box" style="background:#2e2d2a;"></div>
+                <span class="color-hex">#2e2d2a</span>
+            </div>
+            <div class="color-swatch" data-hex="#3e3c39">
+                <div class="color-box" style="background:#3e3c39;"></div>
+                <span class="color-hex">#3e3c39</span>
+            </div>
+            <div class="color-swatch" data-hex="#ead3ae">
+                <div class="color-box" style="background:#ead3ae;"></div>
+                <span class="color-hex">#ead3ae</span>
+            </div>
+            <div class="color-swatch" data-hex="#11363f">
+                <div class="color-box" style="background:#11363f;"></div>
+                <span class="color-hex">#11363f</span>
+            </div>
+            <div class="color-swatch" data-hex="#8f8a6f">
+                <div class="color-box" style="background:#8f8a6f;"></div>
+                <span class="color-hex">#8f8a6f</span>
+            </div>
+            <div class="color-swatch" data-hex="#301e30">
+                <div class="color-box" style="background:#301e30;"></div>
+                <span class="color-hex">#301e30</span>
+            </div>            
+             <div class="color-swatch" data-hex="#e2b491">
+                <div class="color-box" style="background:#e2b491;"></div>
+                <span class="color-hex">#e2b491</span>
+            </div>       
+            <div class="color-swatch" data-hex="#d66e3e">
+                <div class="color-box" style="background:#d66e3e;"></div>
+                <span class="color-hex">#d66e3e</span>
+            </div>
+            <div class="color-swatch" data-hex="#cdbfa1">
+                <div class="color-box" style="background:#cdbfa1;"></div>
+                <span class="color-hex">#cdbfa1</span>
+            </div>
+            <div class="color-swatch" data-hex="#dccdb0">
+                <div class="color-box" style="background:#dccdb0;"></div>
+                <span class="color-hex">#dccdb0</span>
+            </div>
+            <div class="color-swatch" data-hex="#130c0c">
+                <div class="color-box" style="background:#130c0c;"></div>
+                <span class="color-hex">#130c0c</span>
+            </div>
+            <div class="color-swatch" data-hex="#94c128">
+                <div class="color-box" style="background:#94c128;"></div>
+                <span class="color-hex">#94c128</span>
+            </div>
+            <div class="color-swatch" data-hex="#f8f8f8">
+                <div class="color-box" style="background:#f8f8f8;"></div>
+                <span class="color-hex">#f8f8f8</span>
+            </div>
+            <div class="color-swatch" data-hex="#656565">
+                <div class="color-box" style="background:#656565;"></div>
+                <span class="color-hex">#656565</span>
+            </div>
+            <div class="color-swatch" data-hex="#353535">
+                <div class="color-box" style="background:#353535;"></div>
+                <span class="color-hex">#353535</span>
+            </div>
+            <div class="color-swatch" data-hex="#9ee034">
+                <div class="color-box" style="background:#9ee034;"></div>
+                <span class="color-hex">#9ee034</span>
+            </div>
+            <div class="color-swatch" data-hex="#0c2c43">
+                <div class="color-box" style="background:#0c2c43;"></div>
+                <span class="color-hex">#0c2c43</span>
+            </div>
+            <div class="color-swatch" data-hex="#41c89a">
+                <div class="color-box" style="background:#41c89a;"></div>
+                <span class="color-hex">#41c89a</span>
+            </div>
+            <div class="color-swatch" data-hex="#cae2e2">
+                <div class="color-box" style="background:#cae2e2;"></div>
+                <span class="color-hex">#cae2e2</span>
+            </div>
+            <div class="color-swatch" data-hex="#fdfefe">
+                <div class="color-box" style="background:#fdfefe;"></div>
+                <span class="color-hex">#fdfefe</span>
+            </div>   
+            <div class="color-swatch" data-hex="#236776">
+                <div class="color-box" style="background:#236776;"></div>
+                <span class="color-hex">#236776</span>
+            </div>            
+        </div>
+    </div>
+
+    <div class="toast" id="toast">✅ Kopyalandı!</div>
+
+    <script>
+        document.querySelectorAll('.color-swatch').forEach(el => {
+            el.addEventListener('click', function() {
+                const hex = this.dataset.hex;
+                if (!hex) return;
+
+                navigator.clipboard.writeText(hex).then(() => {
+                    showToast(`✅ ${hex} kopyalandı!`);
+                }).catch(() => {
+                    const textArea = document.createElement('textarea');
+                    textArea.value = hex;
+                    document.body.appendChild(textArea);
+                    textArea.select();
+                    document.execCommand('copy');
+                    document.body.removeChild(textArea);
+                    showToast(`✅ ${hex} kopyalandı!`);
+                });
+            });
+        });
+
+        function showToast(msg) {
+            const toast = document.getElementById('toast');
+            toast.textContent = msg;
+            toast.classList.add('show');
+            clearTimeout(toast._timer);
+            toast._timer = setTimeout(() => toast.classList.remove('show'), 1500);
+        }
+    </script>
+
+</body>
+</html>
