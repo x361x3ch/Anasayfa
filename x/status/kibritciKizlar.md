@@ -24,4 +24,4 @@ Bu, Orta Çağ’da yaşanan bir olay değildi. Bu, dünyanın en zengin imparat
 [@alienineden](https://x.com/intent/user?user_id=36542100)  
 [2026-08-08 · 00.22](https://x.com/i/status/2085839107918295336)
 
-Grevden sonra tam 20 ul daha geçtikten sonra nihayet bu maddenin yasaklanması saălandı. Grevci kizlarin coğu muhtemelen çoktan ölmüştÜ.
+Grevden sonra tam 20 yıl daha geçtikten sonra nihayet bu maddenin yasaklanması sağlandı. Grevci kızların çoğu muhtemelen çoktan ölmüştü.
