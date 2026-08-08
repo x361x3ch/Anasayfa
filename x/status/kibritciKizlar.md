@@ -21,3 +21,7 @@ Londra şok oldu. Ve nihayet 1908’de, İngiltere bu kızlar sayesinde beyaz fo
 
 Bu, Orta Çağ’da yaşanan bir olay değildi. Bu, dünyanın en zengin imparatorluğu olan Londra’da, 1903 yılında yaşanan bir olaydı.
 
+[@alienineden](https://x.com/intent/user?user_id=36542100)  
+[2026-08-08 · 00.22](https://x.com/i/status/2085839107918295336)
+
+Grevden sonra tam 20 ul daha geçtikten sonra nihayet bu maddenin yasaklanması saălandı. Grevci kizlarin coğu muhtemelen çoktan ölmüştÜ.
