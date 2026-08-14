@@ -236,19 +236,41 @@ h1, h2, h3, h4, h5 {
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
     <script>
-      // Yukarı Çık Butonu
+      // Yukarı Çık Butonu - Sadece Footer'da Görünür
 (function() {
   const btn = document.getElementById('scrollTopBtn');
-  if (btn) {
-    btn.addEventListener('click', function(e) {
-      e.preventDefault();
-      window.scrollTo({
-        top: 0,
-        left: 0,
-        behavior: 'smooth'
-      });
+  if (!btn) return;
+
+  // Footer elementini bul
+  const footer = document.querySelector('.footer');
+  if (!footer) return;
+
+  // Butona tıklama olayı
+  btn.addEventListener('click', function() {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: 'smooth'
     });
+  });
+
+  // Scroll olayını dinle
+  function checkFooterVisibility() {
+    const footerRect = footer.getBoundingClientRect();
+    const windowHeight = window.innerHeight;
+    
+    // Footer görünür alana girdiğinde butonu göster
+    if (footerRect.top < windowHeight && footerRect.bottom > 0) {
+      btn.classList.add('visible');
+    } else {
+      btn.classList.remove('visible');
+    }
   }
+
+  // Sayfa yüklendiğinde ve scroll'da kontrol et
+  window.addEventListener('scroll', checkFooterVisibility);
+  window.addEventListener('resize', checkFooterVisibility);
+  checkFooterVisibility(); // İlk kontrol
 })();
     </script>
   </body>
