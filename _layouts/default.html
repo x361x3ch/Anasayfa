@@ -234,21 +234,20 @@ h1, h2, h3, h4, h5 {
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
     <script>
-      anchors.add();
-
-      // ===== YUKARI ÇIK BUTONU JAVASCRIPT (EKLENDİ) =====
-      (function() {
-        const btn = document.getElementById('scrollTopBtn');
-        if (btn) {
-          btn.addEventListener('click', function() {
-            window.scrollTo({
-              top: 0,
-              left: 0,
-              behavior: 'smooth'
-            });
-          });
-        }
-      })();
+      // Yukarı Çık Butonu
+(function() {
+  const btn = document.getElementById('scrollTopBtn');
+  if (btn) {
+    btn.addEventListener('click', function(e) {
+      e.preventDefault();
+      window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: 'smooth'
+      });
+    });
+  }
+})();
     </script>
   </body>
 </html>
