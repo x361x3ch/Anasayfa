@@ -139,10 +139,11 @@ h1, h2, h3, h4, h5 {
 }
 
 /* ========== YUKARI ÇIK BUTONU (EKLENDİ) ========== */
+/* Yukarı Çık Butonu - Footer'da Sabit */
 .scroll-top-btn {
-  position: fixed;
-  bottom: 2rem;
-  right: 2rem;
+  position: fixed;           /* Sayfada sabit kalır */
+  bottom: 2rem;              /* Alttan boşluk */
+  right: 2rem;               /* Sağdan boşluk */
   background: #333;
   color: white;
   border: none;
@@ -151,36 +152,32 @@ h1, h2, h3, h4, h5 {
   font-size: 1.1rem;
   font-weight: 600;
   cursor: pointer;
-  box-shadow: 0 6px 18px rgba(0,0,0,0.2);
-  transition: all 0.2s ease;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.3);
+  transition: all 0.3s ease;
   z-index: 999;
+  font-family: Poppins, sans-serif;
   display: flex;
   align-items: center;
   gap: 0.4rem;
-  font-family: Poppins, sans-serif;
 }
+
 .scroll-top-btn:hover {
   background: #86AD41;
-  transform: translateY(-2px);
-  box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+  transform: translateY(-3px) scale(1.02);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
 }
+
 .scroll-top-btn:active {
   transform: scale(0.94);
 }
-.scroll-top-btn::before {
-  content: "↑";
-  font-size: 1.6rem;
-  line-height: 1;
-}
+
+/* Mobil uyum */
 @media (max-width: 480px) {
   .scroll-top-btn {
     bottom: 1.2rem;
     right: 1.2rem;
     padding: 0.6rem 1.2rem;
     font-size: 0.95rem;
-  }
-  .scroll-top-btn::before {
-    font-size: 1.3rem;
   }
 }
 </style>
