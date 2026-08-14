@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 {% seo %}
-	<meta name="robots" content="noindex, nofollow">
+    <meta name="robots" content="noindex, nofollow">
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
     <link href="https://cdn.jsdelivr.net/npm/@fontsource-variable/quicksand@5.2.10/index.min.css" rel="stylesheet">
-	<link href="https://cdn.jsdelivr.net/npm/@fontsource/poppins@5.2.5/index.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@fontsource/poppins@5.2.5/index.min.css" rel="stylesheet">
     {% include head-custom.html %}
 <style>
 * {
@@ -105,7 +105,7 @@ h1, h2, h3, h4, h5 {
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
 @media (min-width: 700px) {
   img {
-	max-width: 100%;
+    max-width: 100%;
   }
   .row {
     flex-direction: row;
@@ -114,15 +114,15 @@ h1, h2, h3, h4, h5 {
     flex-direction: row;
   }
   .left {
-	display: inline-block;
+    display: inline-block;
   }
  .right {
-	display: inline-block;
+    display: inline-block;
   }
 }
 @media (max-width: 700px) {
   img {
-	max-width: 100%;
+    max-width: 100%;
   }
   .row {
     flex-direction: column-reversed;
@@ -131,10 +131,10 @@ h1, h2, h3, h4, h5 {
     flex-direction: row;
   }
   .left {
-	display: none;
+    display: none;
   }
   .right {
-	display: none;
+    display: none;
   }
 }
 
@@ -175,12 +175,42 @@ h1, h2, h3, h4, h5 {
   transform: scale(0.95);
 }
 
+/* --- GERİ BUTONU (FOOTER İÇİ) --- */
+.footer-back-btn {
+  display: inline-block;
+  background: #333;
+  color: #fff;
+  padding: 0.5rem 1.2rem;
+  border-radius: 30px;
+  font-family: Poppins, sans-serif;
+  font-size: 0.95rem;
+  font-weight: 500;
+  cursor: pointer;
+  border: none;
+  transition: background 0.2s ease, transform 0.2s ease;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  text-decoration: none;
+}
+.footer-back-btn:hover {
+  background: #86AD41;
+  transform: translateY(-2px);
+  color: #fff;
+}
+.footer-back-btn:active {
+  transform: scale(0.96);
+}
+
 @media (max-width: 480px) {
   .scroll-top-btn {
     bottom: 1.2rem;
     right: 1.2rem;
     padding: 0.6rem 1.2rem;
     font-size: 0.9rem;
+  }
+  .footer-back-btn {
+    font-size: 0.85rem;
+    padding: 0.4rem 1rem;
   }
 }
 </style>
@@ -227,6 +257,11 @@ h1, h2, h3, h4, h5 {
 <div class="footer">
   <h2>Footer</h2>
   
+  <!-- GERİ BUTONU (FOOTER İÇİNDE) -->
+  <div>
+    <button onclick="goBack()" class="footer-back-btn">← Geri</button>
+  </div>
+
   <!-- Yukarı Çık Butonu -->
   <button id="scrollTopBtn" class="scroll-top-btn">↑ Başa Dön</button>
 </div>
@@ -236,6 +271,11 @@ h1, h2, h3, h4, h5 {
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
     <script>
+      // Geri butonu fonksiyonu
+      function goBack() {
+        window.history.back();
+      }
+
       // Yukarı Çık Butonu - Sadece Footer'da Görünür
 (function() {
   const btn = document.getElementById('scrollTopBtn');
