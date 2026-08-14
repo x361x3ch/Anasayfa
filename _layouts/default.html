@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 {% seo %}
+	<meta name="robots" content="noindex, nofollow">
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
     <link href="https://cdn.jsdelivr.net/npm/@fontsource-variable/quicksand@5.2.10/index.min.css" rel="stylesheet">
 	<link href="https://cdn.jsdelivr.net/npm/@fontsource/poppins@5.2.5/index.min.css" rel="stylesheet">
@@ -136,6 +137,52 @@ h1, h2, h3, h4, h5 {
 	display: none;
   }
 }
+
+/* ========== YUKARI ÇIK BUTONU (EKLENDİ) ========== */
+.scroll-top-btn {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  background: #333;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 0.8rem 1.6rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+  transition: all 0.2s ease;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-family: Poppins, sans-serif;
+}
+.scroll-top-btn:hover {
+  background: #86AD41;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+}
+.scroll-top-btn:active {
+  transform: scale(0.94);
+}
+.scroll-top-btn::before {
+  content: "↑";
+  font-size: 1.6rem;
+  line-height: 1;
+}
+@media (max-width: 480px) {
+  .scroll-top-btn {
+    bottom: 1.2rem;
+    right: 1.2rem;
+    padding: 0.6rem 1.2rem;
+    font-size: 0.95rem;
+  }
+  .scroll-top-btn::before {
+    font-size: 1.3rem;
+  }
+}
 </style>
   </head>
   <body>
@@ -178,7 +225,27 @@ h1, h2, h3, h4, h5 {
     <div class="footer">
   <h2>Footer</h2>
 </div>
+
+    <!-- ===== YUKARI ÇIK BUTONU (EKLENDİ) ===== -->
+    <button id="scrollTopBtn" class="scroll-top-btn" aria-label="Sayfa başına git"></button>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
-    <script>anchors.add();</script>
+    <script>
+      anchors.add();
+
+      // ===== YUKARI ÇIK BUTONU JAVASCRIPT (EKLENDİ) =====
+      (function() {
+        const btn = document.getElementById('scrollTopBtn');
+        if (btn) {
+          btn.addEventListener('click', function() {
+            window.scrollTo({
+              top: 0,
+              left: 0,
+              behavior: 'smooth'
+            });
+          });
+        }
+      })();
+    </script>
   </body>
 </html>
