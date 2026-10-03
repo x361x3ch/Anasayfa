@@ -33,3 +33,20 @@ https://x.com/GabrielCastroOK/status/2105979930647392748
 • Pirateiro: The Pirate Bay'in klasik arayüzü ve veritabanının işlevsel klonu.
 • The Pirate City: Geleneksel korsan gemisi tasarımına sahip alternatif indeks.
 • 1337x: Ana alan adı ve doğrudan kopyalarıyla karanlık katalog tasarımı.
+
+
+---
+
+Apple Music → ESound 
+Netflix → Flixio 
+Peacock → GlitchTV'yi 
+Hulu → ShowZone 
+Disney → Netmirror'ı 
+Spotify → Lyra'yı 
+Prime Video → CineHub'ı 
+Paramount+ → EpicFlix'i 
+HBO Max → Moviebox 
+Apple TV → Streamly 
+
+https://x.com/i/status/2106390874154234186
+2026-10-03 Cumartesi 17:28
